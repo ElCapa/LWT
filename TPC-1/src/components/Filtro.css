@@ -1,0 +1,23 @@
+.filtro {
+    margin: 1rem 0;
+  }
+  
+  .filtro-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .filtro-control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .filtro-control select {
+    padding: 0.5rem;
+    font: inherit;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 10rem;
+  }

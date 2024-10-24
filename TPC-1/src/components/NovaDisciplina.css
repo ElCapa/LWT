@@ -1,0 +1,65 @@
+.new-disciplina__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .new-disciplina__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .new-disciplina__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  }
+  
+  .new-disciplina__actions {
+    text-align: right;
+  }
+  
+  .new-disciplina {
+    background-color: #6c92aa53;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  .new-disciplina button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #1150e2cf;
+    background-color: #1150e2cf;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  
+  .new-disciplina button:hover,
+  .new-disciplina button:active {
+    background-color: #00255d;
+    border-color: #00255d;
+  }
+  
+  .new-disciplina button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .new-disciplina button.alternative:hover,
+  .new-disciplina button.alternative:active {
+    background-color: #ddb3f8;
+  }
