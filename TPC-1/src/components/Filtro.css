@@ -1,23 +1,48 @@
 .filtro {
-    margin: 1rem 0;
-  }
   
-  .filtro-control {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f1f1f; 
+  padding: 1rem;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
   
-  .filtro-control label {
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-  }
-  
-  .filtro-control select {
-    padding: 0.5rem;
-    font: inherit;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-    width: 10rem;
-  }
+}
+
+.filtro label {
+  font-weight: bold;
+  color: white;
+  font-size: 1.2rem; 
+}
+
+.filtro select {
+  padding: 0.5rem;
+  font: inherit;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 12rem; 
+  background-color: #333; 
+  color: white; 
+}
+
+.filtro select option {
+  background-color: #333; 
+  color: white; 
+}
+
+.filtro-control {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.filtro select:hover {
+  background-color: #444; 
+}
+
+.filtro select:focus {
+  outline: none;
+  border: 2px solid #666; 
+}

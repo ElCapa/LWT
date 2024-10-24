@@ -22,9 +22,10 @@ function App() {
   });
   return (
     <div>
+      
       <NovaDisciplina onAddDisciplina={onAddDisciplinasHandler} />
-      <Disciplinas listaDisciplinas={disciplinasFiltradas} />
       <Filtro anoSelecionado={anoSelecionado} onFiltroAno={changeAnoHandler} />
+      <Disciplinas listaDisciplinas={disciplinasFiltradas} />
     </div>
   );
 }
